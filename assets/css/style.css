@@ -19,11 +19,16 @@
     padding-top: 20px;
 }
 
+.page-info{
+    text-align: center;
+}
+
 .page-container{
     width: 90%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
 }
 
 .container-item{
@@ -69,4 +74,40 @@ aside{
     margin-left: 5%;
     display: flex;
     flex-direction: column;
+}
+
+.page-img-title{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 28%;
+    color: white;
+}
+
+.footer{
+    position:fixed;
+    max-width: 100%;
+    width: 100vw;
+    background-color: lightslategray;
+    bottom: 0;
+    left: 0;
+}
+
+.footer > p{
+    text-align: center;
+    color: white;
+}
+
+.page-img-link > a{
+    padding-right: 15px;
+}
+.page-img-link{
+    position: absolute;
+    margin-top: 14%;
+    color: white;
+}
+
+.page-info-block{
+    margin-left: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
